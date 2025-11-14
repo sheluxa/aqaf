@@ -1,0 +1,66 @@
+# ============================
+# Global Gitignore for AQA Engine Repository
+# ============================
+
+# ---- Python ----
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+*.env
+
+# Build / cache
+*.log
+*.tmp
+*.cache
+
+# ---- FastAPI/Uvicorn ----
+# (No specific files, but keep logs ignored)
+
+# ---- Node / VS Code Extension ----
+node_modules/
+dist/
+.vscode-test/
+*.vsix
+
+# ---- VS Code workspace settings ----
+.vscode/
+
+# ---- OS/System Files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Python packaging (if used) ----
+build/
+dist/
+*.egg-info/
+
+# ---- Mock files (optional) ----
+qase_push_mock.json
+resp.json
+body.json
+
+# ---- JetBrains IDE ----
+.idea/
+
+# ---- Test files ----
+coverage/
+.pytest_cache/
+
+# ---- Backup files ----
+*.bak
+*.swp
+*.orig
+
+# ---- Other temporary files ----
+*.old
+*.tmp

@@ -98,7 +98,7 @@ python -m uvicorn app:app --reload --port 8787
 
     http://localhost:8787/
 
-## 📝 Env-файл
+##  Env-файл
 
 Создай в папке `backend`:
 

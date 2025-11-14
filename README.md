@@ -55,27 +55,6 @@ http://localhost:8787/docs
 
 ---
 
-# Структура проекта
-
-```
-backend/
-│
-├── app.py                 # Веб-сервер + UI
-├── requirements.txt       # Python зависимости
-│
-├── services/
-│     ├── generation.py    # Генерация тест-кейсов и автотестов
-│     ├── qase_client.py   # Mock-клиент для экспорта
-│
-├── models/
-│     └── schemas.py       # Pydantic-схемы API
-│
-├── .env.example           # Пример env-файла
-└── qase_push_mock.json    # Пример mock-выгрузки (опционально)
-```
-
----
-
 # 1. Установка и запуск
 
 ##  Установить Python (3.10+)

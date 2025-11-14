@@ -1,0 +1,34 @@
+{
+  "name": "aqa-mvp",
+  "displayName": "AQA MVP",
+  "description": "Генерация тест-кейсов и Playwright автотестов из выделенного текста",
+  "version": "0.0.1",
+  "publisher": "your-publisher",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:aqa.generateFromSelection"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "aqa.generateFromSelection",
+        "title": "AQA: Generate Test from Selection"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p .",
+    "watch": "tsc -w -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/vscode": "^1.90.0",
+    "typescript": "^5.4.0"
+  }
+}
